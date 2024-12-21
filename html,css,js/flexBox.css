@@ -1,0 +1,24 @@
+#main{
+
+    display: flex;
+    border: 3px solid;
+    height: 400px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#main div{
+    height: 100px;
+    width: 100px;
+}
+#one{
+    background-color: darkslategray;
+}
+#two{
+    background-color: rgb(72, 145, 128);
+}
+#three{
+    background-color: rgb(95, 122, 230);
+}
+#four{
+    background-color: rgb(159, 90, 180);
+}
