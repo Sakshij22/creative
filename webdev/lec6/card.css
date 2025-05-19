@@ -1,0 +1,35 @@
+
+
+#parent{
+   
+    height: 251px;
+    width: 201px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 213, 210);
+    border-radius: 15px;
+    /* box-shadow:rgb(51, 50, 50); */
+    position: relative;
+    left: 370px;
+    top: 150px;
+    margin: 2%;
+    flex-wrap: wrap;
+   
+
+}
+#child-a img{
+    border-radius: 15px;
+    height: 50%;
+    width: 100%;
+
+}
+
+#child-b img{
+    height: 50%;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+}

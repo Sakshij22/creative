@@ -1,0 +1,35 @@
+#main{
+    display: flex;
+    height: 300px;
+    width: 1000px;
+    background-color:rgb(69, 188, 232) ;
+    margin-left: 240px;
+    margin-top: 200px;
+    border-radius: 20px;
+    display: inline-block;
+   
+    
+
+}
+#one{
+    margin-top: 50px;
+    margin-left: 280px;
+    font-size: 40px;
+}
+#two{
+   /* text-decoration-color: white; */
+    color: white;
+    margin-top: 40px;
+    /* margin-right: 60px; */
+    margin-left: 200px;
+    font-size: 15px;
+
+}
+button{
+   background-color: rgb(255, 166, 0);
+   height: 30px;
+   width: 150px;
+   margin-top: 50px;
+   margin-left: 425px;
+   border-color: white;
+}

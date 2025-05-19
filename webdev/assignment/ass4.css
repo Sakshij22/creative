@@ -1,0 +1,41 @@
+div{
+   /* background: linear-gradient(blue,red); */
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border:8px solid ;
+    align-items: center;
+    margin-left: 300px;
+    animation-name: yashu;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    /* transform: rotateX(360deg);
+    */
+    
+
+    
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+@keyframes yashu {
+    0%{
+        /* background-color: rgb(219, 28, 28); */
+       
+    }
+    50%{
+        /* background-color: darkred; */
+       
+    }
+    100%{
+      
+        transform: translateY(80vh) rotate(360deg);
+    }
+    
+   
+}

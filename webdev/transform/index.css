@@ -1,0 +1,39 @@
+#main{
+    
+   
+    height: 430px;
+    width: 600px;
+    position: relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+    margin: auto;
+    margin-top: 150px;
+  
+}
+
+img{
+    width: 100%;
+    
+}
+#one{
+   z-index: 1;
+   backface-visibility: hidden;
+}
+#main:hover{
+    transform: rotateY(180deg);
+}
+#one,#two{
+    position: absolute;
+    height: 430px;
+    width: 600px;
+   
+}
+
+#two{
+   
+    background-color: chocolate;
+    transform: rotateY(180deg);
+}
+
+    
+
